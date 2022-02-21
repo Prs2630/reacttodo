@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background: #343f4f;
+  height: 200vh;
+}
+
+button {
+  color: blue;
+  border: none;
+
+  border-radius: 4px;
+
+  margin: 0 5px;
+  padding: 0 25px;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  color: red;
+  border: none;
+  border-radius: 4px;
+  background: #112;
+
+  margin: 0 3px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  margin: -10px 0 10px 0;
+  color: #fff;
+  text-align: center;
+}
+.position {
+  margin-left: 50px;
+}
+.main_div {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  top: 90px;
+}
+.center_div {
+  border: 1px solid lightgray;
+  padding: 40px 200px;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  z-index: 999;
+}
+.todos__todo {
+  max-height: 200vh;
+}
+
+.deadline:{
+  color:"red"
+},
+.go:{
+  color:"green"
+},
+.setdate:{
+  color:"blue"
+}
